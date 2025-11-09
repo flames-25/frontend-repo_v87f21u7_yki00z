@@ -29,11 +29,11 @@ const HeroCover = () => {
             Stream into the cyber city. Minimal, immersive, and luminous.
           </p>
           <div className="mt-6 flex gap-3">
-            <button className="group rounded-full bg-cyan-500/20 px-5 py-2 text-cyan-100 backdrop-blur-md ring-1 ring-cyan-400/40 hover:bg-cyan-500/30 transition">
+            <a href="#playlists" className="group rounded-full bg-cyan-500/20 px-5 py-2 text-cyan-100 backdrop-blur-md ring-1 ring-cyan-400/40 hover:bg-cyan-500/30 transition">
               <span className="group-hover:tracking-wide transition-all">Start Listening</span>
-            </button>
-            <button className="rounded-full bg-fuchsia-500/20 px-5 py-2 text-fuchsia-100 backdrop-blur-md ring-1 ring-fuchsia-400/40 hover:bg-fuchsia-500/30 transition">
-              Explore</button>
+            </a>
+            <a href="#tracks" className="rounded-full bg-fuchsia-500/20 px-5 py-2 text-fuchsia-100 backdrop-blur-md ring-1 ring-fuchsia-400/40 hover:bg-fuchsia-500/30 transition">
+              Explore</a>
           </div>
         </motion.div>
       </div>
